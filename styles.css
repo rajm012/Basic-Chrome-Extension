@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2e, #3a3a52);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Analog Clock */
+#clockContainer {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background: url('clock.png') no-repeat center;
+    background-size: cover;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 3%;
+    height: 25%;
+    top: 25%;
+    left: 48.5%;
+    opacity: 0.9;
+    background: black;
+}
+
+#minute {
+    width: 2%;
+    height: 35%;
+    top: 15%;
+    left: 49%;
+    opacity: 0.9;
+    background: black;
+}
+
+#second {
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.5%;
+    background: red;
+}
+
+/* Digital Clock */
+.digital-clock {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#digitalTime {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Quote Box */
+.quote-box {
+    max-width: 80%;
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
