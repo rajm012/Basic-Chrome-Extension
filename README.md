@@ -1,5 +1,5 @@
 
-# ⏰ Motivational Clock - Chrome Extension
+# Basic Clock - Chrome Extension
 
 A **custom new tab Chrome extension** that displays an **analog clock**, a **digital clock with date**, and **motivational quotes** to keep you inspired while studying or working. 🚀  
 
